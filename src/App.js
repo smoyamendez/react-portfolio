@@ -7,6 +7,7 @@ import './App.css';
 // import Work from './pages/Work';
 // import Carousel from './components/Carousel'
 import Header from './components/Header';
+import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 function App() {
   

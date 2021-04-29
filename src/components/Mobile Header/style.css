@@ -1,0 +1,38 @@
+.header-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 8px solid var(--accent-yellow);
+    padding: 60px 40px 20px 40px;
+    margin-top: -60px;
+    box-shadow: ;
+    /* background-color: rgb(197, 193, 187, 0.5); */
+}
+
+/* Nav Styles*/
+
+nav {
+    margin: 20px;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    padding: 20px;
+    font-size: 32px;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-shadow: var(--accent-blue) 1px 3px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--accent-yellow);
+}
+
+nav a:hover {
+    color: var(--accent-blue);
+    text-shadow: var(--accent-yellow) 1px 3px;
+}
