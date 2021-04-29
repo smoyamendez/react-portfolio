@@ -1,0 +1,13 @@
+html, * {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --dark: #19211c;
+  --medium: #C5C1BB;
+  --light: #EFF0EB;
+  --accent-yellow: #EACB48 ;
+  --accent-blue:#00A099;
+}
